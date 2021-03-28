@@ -1,0 +1,80 @@
+/******************************************
+Layout depagina fixa
+*/
+
+body{
+	font-family: "trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+ }
+
+
+#container{
+	width: 720px;
+	margin: 0 auto;
+	background: #fff;
+}
+/** cabeçario da pagina**/
+#marca{
+	height: 100px;
+	background: #9e9e9e;
+	text-align: center;
+	line-height: 100px; 
+}
+
+/** Fim **/
+
+/** corpo **/
+#conteudo{
+ 	float: right;
+ 	width: 520px;
+}
+#conteudo h5{
+	margin: -20px 0 0 0;
+	text-align: center;
+}
+#conteudo h4{
+	text-align: center;
+}
+#conteudo h6{
+	margin: -11px 0 0 0;
+}
+#conteudo-principal{
+	width: 320px;
+	float: left;
+}
+#conteudo-segundario{
+ width: 180px;
+ float: right;
+ background: #d1d1d1;
+ font-size: 15px;
+ padding: 10px;
+ text-decoration: none;
+ 
+}
+/** fim**/
+
+/** aba de  navegação lateral **/
+
+#navegação{
+	width: 180px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+#navegação ul{
+	list-style: none;
+}
+#navegação li a{
+	text-decoration: none;
+}
+
+/** fim **/
+
+/** Rodape **/
+#rodape{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+	text-align: center;
+}
